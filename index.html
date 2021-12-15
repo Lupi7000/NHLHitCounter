@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="title"> <h1 name="namelupi">NHL Hit Counter</h1> </div>
+        <!-- START parent div -->
+        <div class="count-area">
+            <div class="button-div-new"><button onclick="newEntry()">New Entry</button></div>
+            <div class="input-form-div"><input id="playername" type="text" placeholder="type player name here"></div>
+            <div class="button-div-end"><button class="button-end" onclick="pressEnd()">Next Period</button></div>
+            <div class="button-div-hit"><button class="button-hit" onclick="pressHit()">HIT</button></div>
+        </div>
+        <div class="hit-entry">
+        </div>
+        <div id="hit-grid">
+            <div class="col-headers">
+                <div class="col">PLAYER</div>
+                <div class="col">1st Period</div>
+                <div class="col">2nd Period</div>
+                <div class="col">3rd Period</div>
+                <div class="col">Total</div>
+            </div>
+            <div id="entry">
+            <!-- JAVASCRIPT WILL FILL THIS DIV -->
+            </div>
+        </div>
+        <!-- END parent div -->
+        <script src="index.js"></script>
+    </body>
+</html>
