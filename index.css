@@ -1,0 +1,157 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 600;   
+    text-transform: uppercase;
+    color: lightgray
+}
+
+.title {
+    background: linear-gradient(180deg, darkslateblue, darkblue, darkslategray);
+    padding-left: 20px;
+}
+
+#hit-grid {
+    height: auto;
+}
+
+#entry {
+    display: grid;
+    background-color: lightblue;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 5px;
+}
+
+.entry-cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+}
+
+.count-area {
+    font-size: 20px;
+    min-height: 100px;
+    display: grid;
+    background: lightgray;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 20px;
+    width: 100%;
+    grid-template-areas:
+      "new form end"
+      "hit hit hit";
+  }
+
+.input-form-div {
+    display: flex;
+    grid-area: form;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-div-hit {
+    display: flex;
+    grid-area: hit;
+    align-items: center;
+    justify-content: center;
+    height: 75px;
+    padding-bottom: 20px;
+}
+
+.button-hit {
+    background: maroon;
+    border-radius: 10px;
+    font-size: 40px;
+    width: 200px;
+    height: 50px;
+    color: white;
+    
+}
+
+.button-div-new {
+    display: flex;
+    grid-area: new;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-div-end {
+    display: flex;
+    grid-area: end;
+    align-items: center;
+    justify-content: center;
+}
+
+.col-headers {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: lightgray;
+    margin: 10 0 10 0;
+    width: 100%;
+    background: darkslategrey;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 30px auto 1fr;
+    grid-column-gap: 10px;
+    margin-bottom: 10px;
+}
+
+.entry {
+    font-size: 18px;
+    margin: 10 0 10 0;
+    font-weight: 400;
+    font-family: 'Roboto Condensed', sans-serif;
+    width: 100%;
+    background: LightGray;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 30px auto 1fr;
+    grid-column-gap: 10px;
+}
+
+.col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.col-p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.col-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.col-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.col-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.col-t {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
